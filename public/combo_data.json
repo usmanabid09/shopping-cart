@@ -1,0 +1,50 @@
+{
+    "chips": [
+        {"id": 1, "name": "Lays Salted", "combo": [1]},
+        {"id": 2, "name": "Slims"},
+        {"id": 3, "name": "Potatoe Sticks"},
+        {"id": 4, "name": "Slanty"}
+    ],
+    "drinks": [
+        {"id": 1, "name": "Pepsi"},
+        {"id": 2, "name": "Miranda"},
+        {"id": 3, "name": "7UP"}
+    ],
+    "chocolates": [
+        {"id": 1, "name": "Cadbury"},
+        {"id": 2, "name": "Perk"},
+        {"id": 3, "name": "Now"}
+    ],
+    "combos": [
+        {
+            "name": "Combo 1",
+            "chipsId": 1,
+            "drinkId": 1,
+            "chocolateId": 1
+        },
+        {
+            "name": "Combo 2",
+            "chipsId": 2,
+            "drinkId": 3,
+            "chocolateId": 2
+        },
+        {
+            "name": "Combo 3",
+            "chipsId": 3,
+            "drinkId": 1,
+            "chocolateId": 3
+        },
+        {
+            "name": "Combo 4",
+            "chipsId": 4,
+            "drinkId": 2,
+            "chocolateId": 1
+        },
+        {
+            "name": "Combo 5",
+            "chipsId": 2,
+            "drinkId": 1,
+            "chocolateId": 2
+        }
+    ]
+}

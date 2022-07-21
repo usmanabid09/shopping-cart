@@ -1,0 +1,45 @@
+.error {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+.selected-combo-list {
+    display: flex;
+    margin-top: 15px;
+}
+
+.selected-combo-list-item {
+    margin: 0 15px 0 15px;
+}
+
+.tab-list {
+    display: flex;
+}
+
+.tab-item {
+    padding: 15px;
+    margin-right: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.tab-item.active {
+    background-color: antiquewhite;
+}
+
+.tab {
+    display: flex;
+    margin-top: 15px;
+}
+
+.option-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.option-list-item {
+    padding: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
