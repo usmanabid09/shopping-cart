@@ -32,9 +32,8 @@ function filterDrinkOptions(selectedCombo, data) {
     }, {})
     const drinkOptions = data.combos
         .filter(({ chipsId }) => chipsId === selectedCombo.chips.id)
-        .map(({ drinkId }) => drinkId)
-    const drinkOptionsData = drinkOptions.map(id => drinksAsKeyPairValue[id]);
-    return drinkOptionsData;
+        .map(({ drinkId }) => drinksAsKeyPairValue[drinkId])
+    return drinkOptions;
 }
 
 function filterChocolateOptions(selectedCombo, data) {
@@ -44,9 +43,8 @@ function filterChocolateOptions(selectedCombo, data) {
     }, {})
     const chocolateOptions = data.combos
         .filter(({ chipsId, drinkId }) => chipsId === selectedCombo.chips.id && drinkId === selectedCombo.drink.id)
-        .map(({ chocolateId }) => chocolateId)
-    const chocolateOptionsData = chocolateOptions.map(id => chocolatesAsKeyPairValue[id]);
-    return chocolateOptionsData;
+        .map(({ chocolateId }) => chocolatesAsKeyPairValue[chocolateId])
+    return chocolateOptions;
 }
 
 function onTabChange(state, { payload: { tab } }) {
